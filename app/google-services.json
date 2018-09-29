@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "264852236144",
+    "firebase_url": "https://inspiring-chess-202222.firebaseio.com",
+    "project_id": "inspiring-chess-202222",
+    "storage_bucket": "inspiring-chess-202222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264852236144:android:da5b7ee2d9270730",
+        "android_client_info": {
+          "package_name": "edu.dartmouth.cs.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264852236144-6e8vsa7hr7f7ksdrt6ofllo4sardrspb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7lXXlBE9U4V9gwUdSNzOUCDAjJCi0I5s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

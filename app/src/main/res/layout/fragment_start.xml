@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.StartFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <Spinner
+                android:id="@+id/spinner_activity"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:prompt="@string/activity_type"
+                android:tooltipText="Activity Type" />
+
+        <Spinner
+                android:id="@+id/spinner_input"
+                style="@style/Widget.AppCompat.Spinner.Underlined"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:prompt="@string/input_type"
+                android:tooltipText="Input Type" />
+
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/button_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="29dp"
+                android:layout_marginStart="300dp"
+                android:layout_marginTop="50dp"
+                android:clickable="true"
+                android:src="@android:drawable/arrow_up_float" />
+
+</LinearLayout>
+
+</ScrollView>
